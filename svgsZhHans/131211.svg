@@ -1,0 +1,44 @@
+<!--
+AnimCJK 2016-2026 Copyright FM-SH, https://github.com/parsimonhi/animCJK
+Derived from:
+    MakeMeAHanzi project - https://github.com/skishore/makemeahanzi
+    Arphic PL KaitiM GB font
+    Arphic PL KaitiM Big5 font
+You can redistribute and/or modify this file under the terms of the Arphic Public License
+as published by Arphic Technology Co., Ltd.
+You should have received a copy of this license along with this file.
+If not, see https://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE.
+-->
+<svg id="z131211" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+@keyframes zk {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+svg.acjk path[clip-path] {
+	--t:0.8s;
+	animation:zk var(--t) linear forwards var(--d);
+	stroke-dasharray:3337;
+	stroke-dashoffset:3339;
+	stroke-width:128;
+	stroke-linecap:round;
+	fill:none;
+	stroke:#000;
+}
+svg.acjk path[id] {fill:#ccc;}
+]]>
+</style>
+<path id="z131211d1" d="M391 302C485 275 680 208 737 191C783 176 762 161 753 154C735 141 709 124 674 109C656 101 629 92 629 122C628 152 547 204 385 280C378 283 384 303 391 302Z"/>
+<path id="z131211d2" d="M368 455C373 420 384 326 391 302C392 295 390 285 385 280C359 252 277 222 304 273C312 288 319 310 318 338C312 565 260 714 118 891C83 934 113 922 129 912C185 873 323 753 365 475C367 462 367 462 368 455Z"/>
+<path id="z131211d3" d="M365 475C389 495 413 499 438 492C572 449 733 431 893 429C928 428 929 407 908 393C870 366 840 359 816 366C728 388 417 446 368 455C361 456 360 471 365 475Z"/>
+<defs>
+	<clipPath id="z131211c1"><use href="#z131211d1"/></clipPath>
+	<clipPath id="z131211c2"><use href="#z131211d2"/></clipPath>
+	<clipPath id="z131211c3"><use href="#z131211d3"/></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z131211c1)" d="M639 105L687 144L697 176L386 292"/>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z131211c2)" d="M303 251L354 304L316 574L241 755L109 916"/>
+<path style="--d:3s;" pathLength="3333" clip-path="url(#z131211c3)" d="M367 465L827 397L918 407"/>
+</svg>
